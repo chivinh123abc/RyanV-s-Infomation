@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="
+https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+<!--Navigation menu-->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!----------DarkMode----------->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!------Main------------------>
+
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello, I am</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Ryan! I will be a developer in the future</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire me</button>
+                        <button class="btn">Download CV <i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="socical-icons">
+                        <div class="icon-circle"></div>
+                        <div class="icon"><i class="uil uil-facebook"></i></div>
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt" ></i></div>
+                        <div class="icon"><i class='bx bxs-heart'></i></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="image2.png" alt="" >
+                    </div>
+                </div>
+            </section>
+            <!---------AboutBox<3------------->
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About Me</h1>
+                    </div>
+                        <div class="row">
+                            <div class="about-info">
+                                <figure class="about-me">
+                                    <figcaption>
+                                        <img src="image.png" alt=""class="profile">
+                                        <h3>My Information</h3>
+                                        <p>I am from Vietnam, I was born on August 15th,2005. I am single :'3</p>
+                                </figure>
+                                <button class="about-me-btn">Hire Me</button>
+                            </div>
+                    <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip">60%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip">50%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">Python</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per python">
+                                        <span class="tooltip">20%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">Javascript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per  javascript">
+                                        <span class="tooltip">0%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---------ProjectBox-------------->
+                <section class="section" id="projects">
+                    <div class="top-header">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="project-container">
+                        <div class="project-box">
+                            <i class="uil uil-briefcase-alt"></i>
+                            <h3>Completed</h3>
+                            <label>1+ Finished project</label>
+                        </div>
+                        <div class="project-box">
+                            <i class="uil uil-users-alt"></i>
+                            <h3>Client</h3>
+                            <label>0+ Happy Clients</label>
+                        </div>
+                        <div class="project-box">
+                            <i class="uil uil-award"></i>
+                            <h3>Experience</h3>
+                            <label>0+ years in web developement</label>
+                        </div>
+                    </div>
+                </section>
+                <!-----------ContactBox---------------->
+                <section class="section" id="contact">
+                    <div class="top-header">
+                        <h1>Let's work together</h1>
+                        <span>Do you have a project in your mind, contact me here</span>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="contact-info">
+                                <h2>Find me <i class="uil uild-corner-right-down"></i></h2>
+                                <p><i class="uil uil-envelope">CodeCreators@gmail.com</i></p>
+                                <p><i class="uil uil-phone"></i>Phone 0123456789</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-control">
+                                <div class="form-input">
+                                    <input type="text" class="input-field" placeholder="Your Name">
+                                    <input type="text" class="input-field" placeholder="Your Email">
+                                </div>
+                                <div class="text area">
+                                    <input type="text" class="input-subject" placeholder="Subject">
+                                    <textarea placeholder="Message">Message</textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <!--------------footer----------------------->
+        <footer>
+            <div class="middle-footer"></div>
+            <ul class="footer-menu">
+                <li class="footer-menu-list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer-menu-list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="footer-socical-icon">
+                    <div class="icon"><i class="uil uil-facebook"></i></div>
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                    <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                    <div class="icon"><i class="uil uil-github-alt" ></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">CodeCreators</a> - All right</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
